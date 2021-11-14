@@ -4,11 +4,6 @@
 # python example.py add 10 20
 
 import fire
-
-x = 1
-y = 2
-
-
 def add(x, y):
     z = x + y
     a = "计算 {0} + {1} 的结果：\n计算结果为{2}".format(x, y, z)
